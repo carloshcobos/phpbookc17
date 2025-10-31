@@ -1,8 +1,47 @@
+---
+repo_structure:
+  - config/
+  - public/
+    - css/
+    - font/
+      - icons/
+    - img/
+    - js/
+    - uploads/
+  - src/
+    - classes/
+      - CMS/
+      - Email/
+      - Validate/
+    - pages/
+      - admin/
+  - templates/
+    - admin/
+  - var/
+    - cache/
+      - 08/
+      - 0b/
+      - 57/
+      - 5b/
+      - 6c/
+      - 9e/
+      - a1/
+  - vendor/
+    - bin/
+    - composer/
+    - ezyang/
+      - htmlpurifier/
+    - phpmailer/
+      - phpmailer/
+    - symfony/
+      - polyfill-ctype/
+      - polyfill-mbstring/
+    - twig/
+      - twig/
+---
 # 📰 PHP & MySQL CMS – Proyecto Capítulo 17 (Jon Duckett)
-
 Este proyecto corresponde al **Capítulo 17** del libro *PHP & MySQL: Server-side Web Development* de Jon Duckett*.  
 Implementa un **sistema de gestión de contenidos (CMS)** con:
-
 - Sección pública para visualizar artículos, categorías y búsquedas.  
 - Panel de administración para gestionar contenido.  
 - Integración con Twig, PHPMailer y HTMLPurifier.  
@@ -113,5 +152,4 @@ Proyecto educativo basado en el libro *PHP & MySQL: Server-side Web Development*
 Uso exclusivamente formativo y no comercial.
 
 📘 **Autor original:** Jon Duckett  
-🧑‍💻 **Estructura y README:** [Tu Nombre]  
 📚 **Capítulo:** 17 – *CMS Project*
